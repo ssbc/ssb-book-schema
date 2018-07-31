@@ -7,7 +7,7 @@ module.exports = function isBookComment (obj) {
   const result = validator(getMsgContent(obj))
 
   // exposes error messages provided by is-my-json-valid
-  isBookComment.errors = validator.errors
+  obj.errors = validator.errors
 
   return result
 }

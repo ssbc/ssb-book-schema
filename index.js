@@ -4,7 +4,7 @@ var {first, reduce} = require('depject/apply')
 var v1 = require('./v1/')
 var v2 = require('./v2/')
 
-var sockets = combine([v1, v2])
+var sockets = combine([v2, v1])
 
 //var parsePoll = first(sockets.poll.parse, 'poll.parse')
 var isBook = first(sockets.book.isBook, 'book.isBook')
