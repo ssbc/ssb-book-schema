@@ -2,7 +2,7 @@ module.exports = {
   $schema: 'http://json-schema.org/schema#',
   type: 'object',
   properties: {
-    type: {type: 'string', pattern: '^post$'},
+    type: {type: 'string', pattern: '^bookclubComment$'},
     text: {type: 'string'},
     root: {type: 'string'}, // a book update (rating)
     branch: {type: 'string'} // previous message in thread

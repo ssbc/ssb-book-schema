@@ -5,7 +5,7 @@ const { isBookComment } = require('../../')
 test('isBookComment / book schema', t => {
 
   const simpleBookComment = {
-    type: 'post',
+    type: 'bookclubComment',
     root: 'someid',
     branch: 'someid',
     text: 'Comment'
@@ -13,7 +13,7 @@ test('isBookComment / book schema', t => {
   t.ok(isBookComment(simpleBookComment), 'validates simple book comment')
 
   const incompleteBookComment = {
-    type: 'post',
+    type: 'bookclubComment',
     root: 'someid',
     text: 'Comment'
   }
