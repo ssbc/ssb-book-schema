@@ -16,4 +16,6 @@ Futhermore:
 - shelves can be an array
 - genres can be an array
 
-About type is no longer used. Instead `bookclubUpdate` is used.
+About type is no longer used. Instead `bookclubUpdate` is
+used. Similarly for comments, `bookclubUpdate` is used instead of
+`post`.
