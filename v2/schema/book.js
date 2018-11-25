@@ -15,7 +15,7 @@ module.exports = {
     series: {type: 'string'},
     seriesNo: {type: 'string'},
     description: {type: 'string'},
-    image: {
+    images: {
       oneOf: [
         {type: 'object'},
         {type: 'array', items: {allOf: [{type: 'object'}] }}
