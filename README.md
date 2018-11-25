@@ -17,5 +17,5 @@ Futhermore:
 - genres can be an array
 
 About type is no longer used. Instead `bookclubUpdate` is
-used. Similarly for comments, `bookclubUpdate` is used instead of
-`post`.
+used. Similarly for comments where `bookclubComment` is used instead
+of `post`.
