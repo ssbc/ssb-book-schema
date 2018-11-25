@@ -11,8 +11,8 @@ genres have been added to the book structure directly so that they can
 be used right away.
 
 Futhermore:
-- author can be an array
-- image can be an array
+- authors can be an array
+- images can be an array
 - shelves can be an array
 - genres can be an array
 
