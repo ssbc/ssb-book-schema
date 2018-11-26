@@ -9,7 +9,7 @@
   "keywords": [],
   "author": "Anders Rune Jensen <arj03@protonmail.ch>",
   "license": "Beerware",
-  "repository": "https://github.com/ssbc/ssb-book-schema",
+  "repository": "https://github.com/arj03/ssb-book-schema",
   "dependencies": {
     "depject": "^4.1.1",
     "depnest": "^1.3.0",
