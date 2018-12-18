@@ -6,15 +6,15 @@ test('isBookComment / book schema', t => {
 
   const simpleBookComment = {
     type: 'bookclubComment',
-    root: 'someid',
-    branch: 'someid',
+    root: '%krfSQ45E12ugo7CyB+WPQx8NGar8AahcD6PcAm09Jow=.sha256',
+    branch: '%krfSQ45E12ugo7CyB+WPQx8NGar8AahcD6PcAm09Jow=.sha256',
     text: 'Comment'
   }
   t.ok(isBookComment(simpleBookComment), 'validates simple book comment')
 
   const incompleteBookComment = {
     type: 'bookclubComment',
-    root: 'someid',
+    root: '%krfSQ45E12ugo7CyB+WPQx8NGar8AahcD6PcAm09Jow=.sha256',
     text: 'Comment'
   }
   t.notOk(isBookComment(incompleteBookComment), 'invalidates incomplete book comment')

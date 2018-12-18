@@ -6,7 +6,7 @@ test('isBookUpdate / book schema', t => {
 
   const simpleBookUpdate = {
     type: 'bookclubUpdate',
-    updates: 'someid',
+    updates: '%krfSQ45E12ugo7CyB+WPQx8NGar8AahcD6PcAm09Jow=.sha256',
     authors: 'Ursula le Guin',
     title: 'The Dispossessed'
   }
@@ -22,7 +22,7 @@ test('isBookUpdate / book schema', t => {
 
   const simpleBookReview = {
     type: 'bookclubUpdate',
-    updates: 'someid',
+    updates: '%krfSQ45E12ugo7CyB+WPQx8NGar8AahcD6PcAm09Jow=.sha256',
     review: 'Long thoughtful words',
     rating: '5'
   }
