@@ -13,7 +13,12 @@ module.exports = {
       ]
     },
     series: {type: 'string'},
-    seriesNo: {type: 'string'},
+    seriesNo: {
+      oneOf: [
+        {type: 'string'},
+        {type: 'number'}
+      ]
+    },
     description: {type: 'string'},
     images: {
       oneOf: [

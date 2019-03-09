@@ -6,7 +6,6 @@ var v2 = require('./v2/')
 
 var sockets = combine([v2, v1])
 
-//var parsePoll = first(sockets.poll.parse, 'poll.parse')
 var isBook = first(sockets.book.isBook, 'book.isBook')
 var isBookUpdate = first(sockets.book.isBookUpdate, 'book.isBookUpdate')
 var isBookComment = first(sockets.book.isBookComment, 'book.isBookComment')
