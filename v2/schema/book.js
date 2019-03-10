@@ -26,18 +26,24 @@ module.exports = {
         {type: 'array', items: {allOf: [{type: 'object'}] }}
       ]
     },
+    genres: {
+      oneOf: [
+        {type: 'string'},
+        {type: 'array', items: {allOf: [{type: 'string'}] }}
+      ]
+    },
+    pages: {
+      oneOf: [
+        {type: 'string'},
+        {type: 'number'}
+      ]
+    },
 
     review: {type: 'string'},
     rating: {type: 'string'},
     ratingMax: {type: 'string'},
     ratingType: {type: 'string'},
     shelves: {
-      oneOf: [
-        {type: 'string'},
-        {type: 'array', items: {allOf: [{type: 'string'}] }}
-      ]
-    },
-    genres: {
       oneOf: [
         {type: 'string'},
         {type: 'array', items: {allOf: [{type: 'string'}] }}
